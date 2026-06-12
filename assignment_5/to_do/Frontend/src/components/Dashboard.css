@@ -1,0 +1,51 @@
+.dashboard-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    border: 1px solid rgb(89, 89, 89);
+    padding: 1rem;
+    border-radius: 14px;
+}
+
+.todo-container button{
+    background-color: rgb(218, 56, 47);
+    border: none;
+    border-radius: 20px;
+}
+
+.todo-container button:hover{
+    cursor: pointer;
+}
+
+#input-box{
+    width: 20rem;
+    height: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.fa-magnifying-glass{
+    font-size: 1.2rem;
+
+}
+
+.add-button{
+    background-color: rgb(17, 208, 0);
+    border: none;
+    color: black;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.add-button:hover{
+    cursor:pointer;
+}
